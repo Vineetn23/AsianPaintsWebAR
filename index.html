@@ -80,7 +80,7 @@
     </div>
     <script src="arcamera.js" type="text/javascript"></script>
     <script src="itracker.js" type="text/javascript"></script>
-    <script src="Build/V4.loader.js"></script>
+    <script src="Build/V5.loader.js"></script>
     <script>
             var unityCanvas = document.querySelector("#unity-canvas");
             var videoCanvas = document.querySelector("#video-canvas");
@@ -106,9 +106,9 @@
                 
                 document.getElementById("startARDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/V4.data.gz",
-                    frameworkUrl: "Build/V4.framework.js.gz",
-                    codeUrl: "Build/V4.wasm.gz",
+                    dataUrl: "Build/V5.data",
+                    frameworkUrl: "Build/V5.framework.js",
+                    codeUrl: "Build/V5.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "AsianPaintsNewspaperWebAR",
